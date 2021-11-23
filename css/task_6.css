@@ -1,0 +1,9 @@
+/* task 6 */
+button{
+    COLOR: WHITE;
+    PADDING: 10PX;
+    FONT-SIZE: 15PX;
+    BORDER: NONE;
+    BORDER-RADIUS: 35PX;
+    BACKGROUND-COLOR: blue;
+}

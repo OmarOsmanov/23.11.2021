@@ -1,0 +1,13 @@
+ #headd{
+    background-color: burlywood;
+    border: darkblue solid 5px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+#paraq{
+    background-color: cyan;
+    border-bottom: rgb(2, 63, 22) solid 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

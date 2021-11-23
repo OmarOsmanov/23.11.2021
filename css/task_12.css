@@ -1,0 +1,27 @@
+/* task 12 */
+#paraq .bir{
+    font-size: 20px;
+    color: green;
+}
+
+#paraq .iki{
+    font-size: 20px;
+    color: red;
+}
+
+#paraq .uc{
+    font-size: 20px;
+    color: violet;
+}
+
+#paraq .dord{
+    font-size: 20px;
+    background-color: rgb(67, 96, 180);
+    color: red;
+}
+
+#paraq .bes{
+    font-size: 20px;
+    color: yellow;
+    background-color: brown;
+}

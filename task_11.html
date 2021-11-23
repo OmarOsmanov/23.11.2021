@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1><b>Emergency Contakt Form</b></h1>
+    <h4>place fill out the from correctly</h4>
+    <br>
+    <hr>
+    <br>
+
+    <form>
+        <p> Name   <label for="name"><b></b></label>
+            <input type="text" id="name" name="name"placeholder="First name">
+            <label for="lname"><b></b></label>
+            <input type="text" id="lname" name="lname"placeholder="Last name">
+        
+        </p>
+
+        <p>
+            E-mail  <label for="mail"><b></b></label>
+            <input type="text" id="mail" name="mail"placeholder=" ex:osmanli@omar.com">
+        </p>
+        <p>
+            Area Code <label for="area"><b></b></label>
+            <input type="number" id="area" name="area" max="999" placeholder=" area code"> - 
+            <label for="phone"><b></b></label>
+            <input type="tel" id="phone" name="phone"placeholder="Phone number"><br><br>
+        </p>
+        <p>
+            Adrees <label for="adress"></label>
+            <input type="text" id="adress" name="adress"placeholder="Adrees"><br><br>
+            <label for="sadress"></label>
+            <input type="text" id="sadress" name="sadress"placeholder="Street adress Line 2"><br><br>
+            <label for="city"></label>
+            <input type="text" id="city" name="city"placeholder="City"> 
+            <label for="state"></label>
+            <input type="text" id="state" name="state"placeholder="state/province"> <br><br>
+
+            <label for="zipcode"><b></b></label>
+            <input type="number" id="zipcode" name="zipcode" min="1" max="1000000" placeholder="Postal/zip code">
+
+            <label for="country"><b></b></label>
+        <select name="country" id="country">
+            <option value="0">select country</option>
+            <option value="1">Azerbaycan</option>
+            <option value="2">Turkiye</option>
+            <option value="3">America</option>
+            <option value="4">Rusiya</option>
+            <option value="5">MAcaristan</option>
+            <option value="6">Estoniya</option>
+            </select><br><br>
+
+
+        </p>
+        <p>
+            Relationship whit Patient 
+            
+            
+            <input type="radio" id="parent" name="veziyyet" value="Parent"><label for="parent">parent</label><br>
+            <input type="radio" id="child" name="veziyyet" value="Child"><label for="child">child</label><br>
+            <input type="radio" id="sibling" name="veziyyet" value="Sibling"><label for="sibling">sibling</label><br>
+            <input type="radio">
+            <input type="text"placeholder="other">
+
+
+        </p>
+        
+        <button type="submit">Submit form</button>
+
+    </form>
+
+</body>
+</html>
