@@ -1,0 +1,119 @@
+VACIB!!!
+
+muellim men 8 nomreli taskda css den htmle link vermeyi gozden qacirmisam nezere alsaniz sevinerem, ayri ayri folderler kimi yaradanda linki untmusam.
+
+<link rel="stylesheet" href="css/task_8.css">
+
+link ise budur.
+
+HTML kodu---------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/task_8.css">
+    <title>Task 8</title>
+</head>
+<body>
+<h1><b>Reservation Request</b></h1>
+    <form>
+        <fieldset>
+            <legend>
+               <div id="first">
+                  <b>General Information</b>
+                </div>
+            </legend>
+
+            <label for="arrivalData">Arrival Data</label>
+            <input type="datetime-local" id="arrivalData" name="arrivalData" required><br><br>
+
+            <label for="nigth">Nigths</label>
+            <input type="number" id="nigth" name="nigth" min="0"><br><br>
+
+            <label for="adults">Adults</label>
+            <input type="number" id="adults" name="adults" min="0" placeholder="1"><br><br>
+
+            <label for="children">Children</label>
+            <input type="number" id="children" name="children" min="0" placeholder="0"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <div id="second">
+                    <b>Preferences</b>
+                </div>
+                </legend>
+            <label for="roomType">Room Type:</label>
+            <input type="radio" id="Standart" name="roomType" value="standart"><label for="Standart">Standart</label>
+            <input type="radio" id="Buisness" name="roomType" value="buisness"><label for="Buisness">Buisness</label>
+            <input type="radio" id="Suite" name="roomType" value="suite"><label for="Suite">Suite</label><br><br>
+
+            <label for="bedtipe">Bed Tipe:</label>
+            <input type="radio" id="King" name="bedtipe" value="king"><label for="King">King</label>
+            <input type="radio" id="Double Double" name="bedtipe" value="double double"><label for="Double Double">Double Double</label><br><br>
+
+
+            <label for="smoking"></label>
+            <input type="checkbox" id="Smoking" name="smoking"> <label for="Smoking">Smoking</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <div id="third">
+                <b>Contakt Information</b></div></legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="grac@yahoo.com"><br><br>
+
+            <label for="number">Phone:</label>
+            <input type="tel"id="number" name="number" placeholder="123-456-789"><br><br>
+          
+
+        </fieldset><br><br>
+
+        <button type="submit"> Submit Reservation</button>
+        <button type="reset">Clear</button>
+
+
+
+    </form>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+css kodu-----------------------------------
+
+
+button{
+    color: rgb(1, 17, 1);
+    PADDING: 10PX;
+    width: 165px;
+    background-color: rgb(244, 247, 244);
+
+}
+
+
+#first{
+    color: rgb(60, 12, 236);
+}
+#second{
+    color: rgb(60, 12, 236);
+}
+#third{
+    color: rgb(60, 12, 236);
+}
